@@ -1,0 +1,74 @@
+﻿<Window x:Class="Library_Managment_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:materialMenu="clr-namespace:MaterialMenu;assembly=MaterialMenu"
+        Title="Library Managment System" Height="697.015" Width="1404.104" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,9">
+        <materialMenu:SideMenu HorizontalAlignment="Left" x:Name="CustomMenu"
+                               MenuWidth="500"
+                               State="Hidden"
+                               Theme="None"
+                               ButtonBackground="Gray"
+                               ButtonHover="LightGray"
+                               ShadowBackground="Black" Margin="499,101,0,0" Width="382">
+
+            <materialMenu:SideMenu.Menu>
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" Background="Gray" Margin="0,0,61,-12">
+                    <StackPanel Orientation="Vertical">
+                        <Button Click="btnBookClick" Background="#FF020202">
+                            <materialMenu:MenuButton Text="                                  Book                                                  " ></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnBookIssueClick">
+                            <materialMenu:MenuButton Text="                             Issue Books                                                "></materialMenu:MenuButton>
+                        </Button>
+
+
+                        <Button Click="btnAuthorClick">
+                            <materialMenu:MenuButton Text="                            Authors                                                    "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnCatagoryClick">
+                            <materialMenu:MenuButton Text="                            Category                                                    "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnEmployeeClick">
+                            <materialMenu:MenuButton Text="                             Employees                                                   "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnMemberClick">
+                            <materialMenu:MenuButton Text="                              Members                                                  "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnPublisherClick">
+                            <materialMenu:MenuButton Text="                             Publishers                                                     "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnUserClick">
+                            <materialMenu:MenuButton Text="                                Users                                                     "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnFineClick">
+                            <materialMenu:MenuButton Text="                                 Fine                                                     "></materialMenu:MenuButton>
+                        </Button>
+
+                        <Button Click="btnRackClick">
+                            <materialMenu:MenuButton Text="                                  Rack                                                        "></materialMenu:MenuButton>
+                        </Button>
+                        <Button Click="btnExitClick">
+                            <materialMenu:MenuButton Text="                                  Exit                                                        "></materialMenu:MenuButton>
+                        </Button>
+                    </StackPanel>
+                </ScrollViewer>
+            </materialMenu:SideMenu.Menu>
+        </materialMenu:SideMenu>
+        <Grid Background="Gray" HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="1398">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="48" FontFamily="Perpetua Titling MT" FontWeight="Bold">Library Management System</TextBlock>
+        </Grid>
+        <Grid Name="decissionGrid" Background="LightGray"  HorizontalAlignment="Left" Margin="382,101,0,-110" VerticalAlignment="Top" Height="668"  Width="1016">
+            <Image Source="royal-library-el-escorial.jpg" Stretch="Fill"/>
+        </Grid>
+    </Grid>
+</Window>
+
+

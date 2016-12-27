@@ -1,0 +1,328 @@
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\new Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\new Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\new Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\B6_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\B6_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\LMS BackUp 5 and 6\B6_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\BookForm.baml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\Library Managment System\obj\Debug\BookForm.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\BookForm.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\BookForm.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\BookForm.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\BookForm.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+D:\Projects\VP_LMS\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\BookForm.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\BookForm.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+D:\Projects\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe.config
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.exe
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.exe
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\Library Managment System.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\MaterialMenu.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\ViewModels.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\ViewModels.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\bin\Debug\EntityFramework.xml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csprojResolveAssemblyReference.cache
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\BookForm.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmAuthor.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBook.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmCatagory.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmEmployee.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmFine.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmLogin.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmMember.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmPublisher.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmRack.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmSection.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmUser.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\MainWindow.baml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\BookForm.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmAuthor.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBook.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmBookIssuence.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmCatagory.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmEmployee.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmFine.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmLogin.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmMember.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmPublisher.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmRack.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmSection.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\frmUser.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\MainWindow.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\App.g.cs
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System_MarkupCompile.cache
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.g.resources
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library_Managment_System.Properties.Resources.resources
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\Library Managment System\obj\Debug\Library Managment System.csproj.GenerateResource.Cache

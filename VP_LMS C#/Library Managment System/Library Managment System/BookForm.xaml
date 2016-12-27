@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="Library_Managment_System.BookForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+               d:DesignHeight="660" d:DesignWidth="850">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="721*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border HorizontalAlignment="Left" Height="184" Margin="38,84,0,0" VerticalAlignment="Top" Width="486" Grid.ColumnSpan="2">
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="0,-19,71,0"/>
+        </Border>
+
+        <Border HorizontalAlignment="Left" Height="184" Margin="38,84,0,0" VerticalAlignment="Top" Width="486" Grid.ColumnSpan="2">
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="-2,218,73,-276"/>
+        </Border>
+
+        <Border HorizontalAlignment="Left" Height="184" Margin="38,84,0,0" VerticalAlignment="Top" Width="486" Grid.ColumnSpan="2">
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="423,217,-311,-275"/>
+        </Border>
+        <Label Content="Books" HorizontalAlignment="Left" Margin="34,5,0,0" VerticalAlignment="Top" FontSize="34" FontWeight="Bold" Height="55" Width="107"/>
+        <Label Content="Rack Name" HorizontalAlignment="Left" Margin="44,211,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <Label Content="Purchase Price" HorizontalAlignment="Left" Margin="44,133,0,0" VerticalAlignment="Top" Height="26" Width="86"/>
+        <Label Content="Publisher Name" HorizontalAlignment="Left" Margin="45,175,0,0" VerticalAlignment="Top" Height="26" Width="94"/>
+        <Label Content="Catagory Name" HorizontalAlignment="Left" Margin="273,99,0,0" VerticalAlignment="Top" Width="103" Height="26" Grid.ColumnSpan="2"/>
+        <Label Content="Section Name" HorizontalAlignment="Left" Margin="274,149,0,0" VerticalAlignment="Top" Width="91" Height="26" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtBookName" HorizontalAlignment="Left" Height="23" Margin="147,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="txtPurPrice" HorizontalAlignment="Left" Height="23" Margin="147,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="btnSaveBook" Content="Save" Grid.Column="1" HorizontalAlignment="Left" Margin="67,212,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="1.16,0.8" Height="41" Click="btnSaveBook_Click"/>
+        <Button Content="Update" x:Name="btnBookUpdate" HorizontalAlignment="Left" Margin="578,445,0,0" VerticalAlignment="Top" Width="76" Height="43" Click="btnBookUpdate_Click" Grid.Column="1"/>
+        <Label Content="Book Name" HorizontalAlignment="Left" Margin="44,101,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+        <Button Content="Search" x:Name="btnBookSearch" HorizontalAlignment="Left" Margin="273,332,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="btnBookSearch_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Delete" x:Name="btnBookDelete" HorizontalAlignment="Left" Margin="578,363,0,0" VerticalAlignment="Top" Width="75" Height="41" Click="btnBookDelete_Click" Grid.Column="1"/>
+        <DataGrid x:Name="dgBook" Grid.ColumnSpan="2" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="140" Margin="50,379,0,0" VerticalAlignment="Top" Width="389">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Book Id" Binding="{Binding bookId}" />
+                <DataGridTextColumn Header="Book Name" Binding="{Binding bookName}" />
+                <DataGridTextColumn Header="Purchase Price" Binding="{Binding purchasePrice}" />
+                <DataGridTextColumn Header="Publisher Id" Binding="{Binding publisherId}" />
+                <DataGridTextColumn Header="Catagory Id" Binding="{Binding catagoryId}" />
+                <DataGridTextColumn Header="Section Id" Binding="{Binding sectionId}" />
+                <DataGridTextColumn Header="Rack Id" Binding="{Binding rackId}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="View All books" x:Name="btnViewAllBooks" HorizontalAlignment="Left" Margin="67,331,0,0" VerticalAlignment="Top" Width="85" Height="41" Click="btnViewAllBooks_Click" Grid.Column="1" />
+        <TextBox x:Name="txtSearchBook" HorizontalAlignment="Left" Height="24" Margin="149,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Search By Id:" HorizontalAlignment="Left" Margin="45,344,0,0" VerticalAlignment="Top" Height="26" Width="77"/>
+        <TextBox x:Name="txtGiveId" HorizontalAlignment="Left" Height="23" Margin="277,363,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="txtGivePrice"  HorizontalAlignment="Left" Height="23" Margin="308,454,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="212" Grid.Column="1"/>
+        <TextBox x:Name="txtGiveName" HorizontalAlignment="Left" Height="23" Margin="308,409,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="212" Grid.Column="1"/>
+        <Label Content="Enter new price:" HorizontalAlignment="Left" Margin="196,451,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="94"/>
+        <Label Content="Enter new name:" HorizontalAlignment="Left" Margin="196,406,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="98"/>
+        <Label Content="Enter Id:" HorizontalAlignment="Left" Margin="196,360,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,0.846" Grid.Column="1" Height="26" Width="54"/>
+        <Label Content="Insert new book:" HorizontalAlignment="Left" Margin="44,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="150" FontWeight="Bold" FontSize="16" Height="31"/>
+        <Label Content="Search and View books:" HorizontalAlignment="Left" Margin="38,308,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="216" FontWeight="Bold" FontSize="16" Height="31"/>
+        <Label Content="Update and delete books:" HorizontalAlignment="Left" Margin="181,308,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="216" FontWeight="Bold" FontSize="16" Grid.Column="1" Height="31"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="92" Margin="196,396,0,0" VerticalAlignment="Top" Width="335"/>
+        <Image Grid.Column="1" Margin="181,31,73,392" Source="BooksStack.png" Stretch="Fill"/>
+        <ComboBox Name="cmbPublisherId" HorizontalAlignment="Left" Margin="149,175,0,0" VerticalAlignment="Top" Width="105" Height="22"/>
+        <ComboBox x:Name="cmbSectionId" HorizontalAlignment="Left" Margin="274,175,0,0" VerticalAlignment="Top" Width="172" Height="22" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="cmbCatagoryId" HorizontalAlignment="Left" Margin="274,122,0,0" VerticalAlignment="Top" Width="172"  Height="22" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="cmbRackId" HorizontalAlignment="Left" Margin="149,211,0,0" VerticalAlignment="Top" Width="105" Height="22"/>
+    </Grid>
+</UserControl>

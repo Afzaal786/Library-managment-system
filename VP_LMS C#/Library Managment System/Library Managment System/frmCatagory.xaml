@@ -1,0 +1,50 @@
+﻿<Window x:Class="Library_Managment_System.frmCatagory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Catagory" Height="654.403"  Width="1268"  WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Media/Dark-background-simple-black-and-white-liniar-background-hd.jpg"/>
+        </Grid.Background>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="216" Margin="23,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="225" Margin="23,313,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="225" Margin="542,313,0,-32" Stroke="Black" VerticalAlignment="Top" Width="567"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="85" Margin="567,432,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label Content="Category Name:" HorizontalAlignment="Left" Margin="56,126,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCatName" HorizontalAlignment="Left" Height="23" Margin="56,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429"/>
+        <Label Foreground="WhiteSmoke" Content="Category:" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30"/>
+        <Button x:Name="btnClose" Content="Back" HorizontalAlignment="Left" Margin="1034,543,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.413,0.45" Height="52" Click="btnClose_Click"/>
+        <Button Content="Update" x:Name="btnCatagoryUpdate" HorizontalAlignment="Left" Margin="922,454,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnCatagoryUpdate_Click"/>
+        <Button Content="Search" x:Name="btnCatagorySearch" HorizontalAlignment="Left" Margin="312,332,0,0" VerticalAlignment="Top" Width="64" Height="52" Click="btnCatagorySearch_Click" RenderTransformOrigin="0.75,0.526"/>
+        <Button Content="Delete" x:Name="btnCatagoryDelete" HorizontalAlignment="Left" Margin="922,366,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnCatagoryDelete_Click"/>
+        <Button Content="Save" x:Name="btnSaveCatagory" HorizontalAlignment="Left" Margin="410,208,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnSaveCatagory_Click"/>
+        <Button Content="View All Catagories" x:Name="btnViewAllCatagories" HorizontalAlignment="Left" Margin="381,332,0,0" VerticalAlignment="Top" Width="113" Height="52" Click="btnViewAllCatagories_Click"/>
+        <Label Content="Search By Id:" HorizontalAlignment="Left" Margin="36,355,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtSearchCatagory" HorizontalAlignment="Left" Height="23" Margin="118,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+        <Label Content="Enter Id:" HorizontalAlignment="Left" Margin="562,386,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter Name:" HorizontalAlignment="Left" Margin="590,480,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtGiveCatId" HorizontalAlignment="Left" Height="23" Margin="621,389,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="263"/>
+        <TextBox Name="txtGiveCatName" HorizontalAlignment="Left" Height="23" Margin="670,483,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="238" RenderTransformOrigin="0.367,0.609"/>
+
+        <DataGrid x:Name="dgCatagory" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="140" Margin="38,389,0,0" VerticalAlignment="Top" Width="456">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Category Id" Binding="{Binding catagoryId}" />
+                <DataGridTextColumn Header="Category Name" Binding="{Binding catagoryName}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Add new category:" HorizontalAlignment="Left" Margin="56,81,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="205" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Search and view category:" HorizontalAlignment="Left" Margin="38,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="212" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Update and delete category:" HorizontalAlignment="Left" Margin="562,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="231" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Update:" HorizontalAlignment="Left" Margin="590,432,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="231" FontWeight="Bold" FontSize="16"/>
+        <Image Margin="542,57,266,471" Source="stock-vector-book-vector-logo-template-set-books-logo-book-open-back-to-school-education-university-302656190.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-179.464"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+﻿<Window x:Class="Library_Managment_System.frmSection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="frmSection" Height="{Binding SystemParameters.PrimaryScreenHeight}"  Width="{Binding SystemParameters.PrimaryScreenWidth}"  WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Media/Dark-background-simple-black-and-white-liniar-background-hd.jpg"/>
+        </Grid.Background>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="216" Margin="23,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="225" Margin="23,313,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="225" Margin="542,313,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="85" Margin="567,432,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label Content="Section Name:" HorizontalAlignment="Left" Margin="56,126,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSecName" HorizontalAlignment="Left" Height="23" Margin="56,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429"/>
+        <Label Content="Section:" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30"/>
+        <Button x:Name="btnClose" Content="Back" HorizontalAlignment="Left" Margin="958,543,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.413,0.45" Height="52" Click="btnClose_Click"/>
+        <Button Content="Update" x:Name="btnSectionUpdate" HorizontalAlignment="Left" Margin="922,454,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnSectionUpdate_Click"/>
+        <Button Content="Search" x:Name="btnSectionSearch" HorizontalAlignment="Left" Margin="312,332,0,0" VerticalAlignment="Top" Width="64" Height="52" Click="btnSectionSearch_Click" RenderTransformOrigin="0.75,0.526"/>
+        <Button Content="Delete" x:Name="btnSecDelete" HorizontalAlignment="Left" Margin="922,366,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnSectionDelete_Click"/>
+        <Button Content="Save" x:Name="btnSaveSection" HorizontalAlignment="Left" Margin="410,208,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnSaveSection_Click"/>
+        <Button Content="View All Sections" x:Name="btnViewAllSections" HorizontalAlignment="Left" Margin="381,332,0,0" VerticalAlignment="Top" Width="113" Height="52" Click="btnViewAllSection_Click"/>
+        <Label Content="Search By Id:" HorizontalAlignment="Left" Margin="36,355,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtSearchSection" HorizontalAlignment="Left" Height="23" Margin="118,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+        <Label Content="Enter Id:" HorizontalAlignment="Left" Margin="562,386,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter Name:" HorizontalAlignment="Left" Margin="590,480,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtGiveSecId" HorizontalAlignment="Left" Height="23" Margin="621,389,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="263"/>
+        <TextBox Name="txtGiveSecName" HorizontalAlignment="Left" Height="23" Margin="670,483,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="238" RenderTransformOrigin="0.367,0.609"/>
+
+        <DataGrid x:Name="dgSection" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="140" Margin="38,389,0,0" VerticalAlignment="Top" Width="456">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Section Id" Binding="{Binding sectionId}" />
+                <DataGridTextColumn Header="Section Name" Binding="{Binding sectionName}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Add new section:" HorizontalAlignment="Left" Margin="56,81,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="205" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Search and view section:" HorizontalAlignment="Left" Margin="38,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="212" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Update and delete section:" HorizontalAlignment="Left" Margin="562,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="231" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Update:" HorizontalAlignment="Left" Margin="590,432,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="231" FontWeight="Bold" FontSize="16"/>
+        <Image Margin="542,65,16,326" Source="section.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>

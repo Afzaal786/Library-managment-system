@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F4D1339-B18A-4AEA-9BEC-43F051AF8673}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_Managment_System</RootNamespace>
+    <AssemblyName>Library Managment System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\LMS\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialMenu">
+      <HintPath>..\packages\MaterialMenu.0.0.4.5\lib\net45\MaterialMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="BookForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmAuthor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmBookIssuence.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmCatagory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmFine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmMember.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmPublisher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmRack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmSection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BookForm.xaml.cs">
+      <DependentUpon>BookForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmAuthor.xaml.cs">
+      <DependentUpon>frmAuthor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmBook.xaml.cs">
+      <DependentUpon>frmBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmBookIssuence.xaml.cs">
+      <DependentUpon>frmBookIssuence.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmCatagory.xaml.cs">
+      <DependentUpon>frmCatagory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee.xaml.cs">
+      <DependentUpon>frmEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmFine.xaml.cs">
+      <DependentUpon>frmFine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.xaml.cs">
+      <DependentUpon>frmLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmMember.xaml.cs">
+      <DependentUpon>frmMember.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmPublisher.xaml.cs">
+      <DependentUpon>frmPublisher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmRack.xaml.cs">
+      <DependentUpon>frmRack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmSection.xaml.cs">
+      <DependentUpon>frmSection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.xaml.cs">
+      <DependentUpon>frmUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LMSDataAccessLayer\LMSDataAccessLayer.csproj">
+      <Project>{d5709418-3e45-4563-9345-f63afa4bce16}</Project>
+      <Name>LMSDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj">
+      <Project>{cced8bdd-d74d-4669-9e49-187e5f58ce77}</Project>
+      <Name>ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BooksStack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="auhtor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="categories.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="members.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="book-Publisher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="add_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="book_author.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="section.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fine-stamp-185.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="issue_books.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\027840-glossy-space-icon-culture-books3-stacked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\books-icon-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Dark-background-simple-black-and-white-liniar-background-hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="silver-background-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="royal-library-el-escorial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BOOKS1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="books_classic_colors_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="booksicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="stock-vector-book-vector-logo-template-set-books-logo-book-open-back-to-school-education-university-302656190.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="money-bag-xxl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LDP-logo-Transparent.black_-e1412260270152-370x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rack-512.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="111-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1428857898.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

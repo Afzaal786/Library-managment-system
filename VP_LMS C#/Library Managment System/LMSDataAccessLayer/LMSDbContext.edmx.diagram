@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e27f2daf76bd4b58bd020dfa82464e28" Name="Diagram1">
+        <EntityTypeShape EntityType="LMS_DBModel.AUTHOR" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.BOOK" Width="1.5" PointX="2.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.BOOK_ISSUENCE" Width="1.5" PointX="4.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.CATAGORY" Width="1.5" PointX="0.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.EMPLOYEE" Width="1.5" PointX="2.375" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.FINE" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.MEMBER" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.PUBLISHER" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.RACK" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.SECTION" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMS_DBModel.USER" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_CATAGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_ISSUENCE_BOOK" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_PUBLISHER" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_RACK" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_SECTION" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_ISSUENCE_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_BOOK_ISSUENCE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.FK_FINE_MEMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="LMS_DBModel.BOOK_AUTHOR" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

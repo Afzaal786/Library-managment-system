@@ -1,0 +1,46 @@
+﻿<Window x:Class="Library_Managment_System.frmPublisher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Publisher" Height="648.433"  Width="1079.94" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Media/Dark-background-simple-black-and-white-liniar-background-hd.jpg"/>
+        </Grid.Background>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="216" Margin="24,69,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="228" Margin="24,324,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="228" Margin="560,312,0,0" Stroke="Black" VerticalAlignment="Top" Width="491"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="112" Margin="578,409,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label Content="Publisher Name" HorizontalAlignment="Left" Margin="41,133,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPubName" HorizontalAlignment="Left" Height="23" Margin="156,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341"/>
+        <Label Content="Contact No" HorizontalAlignment="Left" Margin="41,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPubContact" HorizontalAlignment="Left" Height="23" Margin="156,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" RenderTransformOrigin="-2.217,4.304"/>
+        <Label Foreground="WhiteSmoke" Content="Publishers:" HorizontalAlignment="Left" Margin="24,19,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="179"/>
+        <Button x:Name="btnClose" Content="Back" HorizontalAlignment="Left" Margin="976,545,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.413,0.45" Height="52" Click="btnClose_Click"/>
+        <Button Content="Update" x:Name="btnPublisherUpdate" HorizontalAlignment="Left" Margin="941,444,0,0" VerticalAlignment="Top" Width="75" Height="57" Click="btnPublisherUpdate_Click"/>
+        <Button Content="Search" x:Name="btnPublisherSearch" HorizontalAlignment="Left" Margin="304,341,0,0" VerticalAlignment="Top" Width="62" Height="52" Click="btnPublisherSearch_Click"/>
+        <Button Content="Delete" x:Name="btnPublisherDelete" HorizontalAlignment="Left" Margin="941,352,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnPublisherDelete_Click"/>
+        <DataGrid x:Name="dgPublisher" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="140" Margin="38,400,0,0" VerticalAlignment="Top" Width="448">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Publisher Id" Binding="{Binding publisherId}" />
+                <DataGridTextColumn Header="Publisher Name" Binding="{Binding publisherName}" />
+                <DataGridTextColumn Header="Contact No" Binding="{Binding publisherContact}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Save" x:Name="btnPublisherSave" HorizontalAlignment="Left" Margin="422,216,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnPublisherSave_Click"/>
+        <Button Content="View All Publishers" x:Name="btnViewAllPublishers" HorizontalAlignment="Left" Margin="377,341,0,0" VerticalAlignment="Top" Width="109" Height="52" Click="btnViewAllPublishers_Click"/>
+        <Label HorizontalAlignment="Left" Margin="39,367,0,0" VerticalAlignment="Top" Content="Search By Id:" Height="28"/>
+        <TextBox Name="txtSearchPublisher" HorizontalAlignment="Left" Height="23" Margin="121,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Update and delete publisher:" HorizontalAlignment="Left" Margin="591,324,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="253" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Add new publisher:" HorizontalAlignment="Left" Margin="38,84,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="205" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Search and view publishers:" HorizontalAlignment="Left" Margin="41,328,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="221" FontWeight="Bold" FontSize="16"/>
+        <Label HorizontalAlignment="Left" Margin="590,372,0,0" VerticalAlignment="Top" Content="Enter Id:" Height="28"/>
+        <TextBox x:Name="txtGiveId" HorizontalAlignment="Left" Height="23" Margin="649,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Label HorizontalAlignment="Left" Margin="591,472,0,0" VerticalAlignment="Top" Content="Enter Contact" Height="28"/>
+        <TextBox x:Name="txtGiveContact" HorizontalAlignment="Left" Height="23" Margin="702,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206"/>
+        <Label HorizontalAlignment="Left" Margin="591,438,0,0" VerticalAlignment="Top" Content="Enter name" Height="28"/>
+        <TextBox x:Name="txtGiveName" HorizontalAlignment="Left" Height="23" Margin="702,443,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206"/>
+        <Image Margin="537,69,330,441" Source="LDP-logo-Transparent.black_-e1412260270152-370x400.png" Stretch="Fill"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+﻿<Window x:Class="Library_Managment_System.frmAuthor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Author" Height="{Binding SystemParameters.PrimaryScreenHeight}"  Width="{Binding SystemParameters.PrimaryScreenWidth}"  WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Media/Dark-background-simple-black-and-white-liniar-background-hd.jpg"/>
+        </Grid.Background>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="212" Margin="58,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="518"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="236" Margin="54,387,0,0" Stroke="Black" VerticalAlignment="Top" Width="522"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="232" Margin="649,391,0,0" Stroke="Black" VerticalAlignment="Top" Width="539"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="112" Margin="716,472,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label Content="Author" HorizontalAlignment="Left" Margin="41,37,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Foreground="#FFF5F2F2" RenderTransformOrigin="0.5,0.5" Width="203" Height="65">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.77"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.733"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Author Name" HorizontalAlignment="Left" Margin="72,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Contact No" HorizontalAlignment="Left" Margin="72,238,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAutName" HorizontalAlignment="Left" Height="23" Margin="189,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" />
+        <TextBox x:Name="txtAutContact" HorizontalAlignment="Left" Height="23" Margin="189,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341"/>
+        <Button x:Name="btnAutClose" Content="Back" HorizontalAlignment="Left" Margin="1113,635,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnAutClose_Click"/>
+        <Button x:Name="btnAutSave" Content="Save" HorizontalAlignment="Left" Margin="455,284,0,0" VerticalAlignment="Top" Width="68" Height="49" Click="btnAutSave_Click"/>
+        <Button Content="Update" x:Name="btnAuthorUpdate" HorizontalAlignment="Left" Margin="1083,511,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnAuthorUpdate_Click"/>
+        <Button Content="Search" x:Name="btnAuthorSearch" HorizontalAlignment="Left" Margin="359,413,0,0" VerticalAlignment="Top" Width="67" Height="52" Click="btnAuthorSearch_Click"/>
+        <Button Content="Delete" x:Name="btnAuthorDelete" HorizontalAlignment="Left" Margin="1083,412,0,0" VerticalAlignment="Top" Width="75" Height="52" Click="btnAuthorDelete_Click"/>
+        <DataGrid x:Name="dgAuthor" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="140" Margin="72,468,0,0" VerticalAlignment="Top" Width="463">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Author Id" Binding="{Binding authorId}" />
+                <DataGridTextColumn Header="Author Name" Binding="{Binding authorName}" />
+                <DataGridTextColumn Header="Contact No" Binding="{Binding authorContact}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Image Margin="687,89,159,385" Source="auhtor.ico" Stretch="Fill"/>
+        <Button Content="View All Authors" x:Name="btnViewAllAuthors" HorizontalAlignment="Left" Margin="431,412,0,0" VerticalAlignment="Top" Width="104" Height="52" Click="btnViewAllAuthors_Click"/>
+        <Label Content="Search By Id:" HorizontalAlignment="Left" Margin="72,435,0,0" VerticalAlignment="Top" Width="79"/>
+        <TextBox Name="txtSearchAuthor" HorizontalAlignment="Left" Height="23" Margin="156,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"/>
+        <Label Content="Add new Author:" HorizontalAlignment="Left" Margin="72,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="150" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Search and view authors:" HorizontalAlignment="Left" Margin="68,399,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="212" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="txtGiveId" HorizontalAlignment="Left" Height="23" Margin="793,442,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtGiveContact"  HorizontalAlignment="Left" Height="23" Margin="839,540,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtGiveName" HorizontalAlignment="Left" Height="23" Margin="839,493,0,0" TextWrapping="Wrap" Text="{x:Null}" VerticalAlignment="Top" Width="212"/>
+        <Label Content="Enter Id" HorizontalAlignment="Left" Margin="718,439,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter name" HorizontalAlignment="Left" Margin="739,490,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter contact" HorizontalAlignment="Left" Margin="739,537,0,0" VerticalAlignment="Top"/>
+        <Label Content="Update and delete authors:" HorizontalAlignment="Left" Margin="716,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.237,1" Width="217" FontWeight="Bold" FontSize="16"/>
+
+    </Grid>
+</Window>

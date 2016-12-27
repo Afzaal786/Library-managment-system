@@ -1,0 +1,25 @@
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\ViewModels\obj\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.pdb
+D:\Projects\VP_LMS\Library Managment System\ViewModels\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS\Library Managment System\ViewModels\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.dll
+D:\Projects\VP_LMS\Library Managment System\ViewModels\obj\Debug\ViewModels.pdb
+D:\Projects\VP_LMS C#\Library Managment System\ViewModels\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS C#\Library Managment System\ViewModels\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.dll
+D:\Projects\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\ViewModels\obj\Debug\ViewModels.pdb

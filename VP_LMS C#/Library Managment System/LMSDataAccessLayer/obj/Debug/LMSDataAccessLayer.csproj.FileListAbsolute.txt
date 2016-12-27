@@ -1,0 +1,80 @@
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+c:\users\safi ahmed\documents\visual studio 2013\Projects\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Documents\Visual Studio 2013\Projects\Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\B7_Library Managment System_VP\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.pdb
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+C:\Users\Safi Ahmed\Desktop\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.dll
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.pdb
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+D:\Projects\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll.config
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\LMSDataAccessLayer.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\ViewModels.pdb
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.dll
+C:\Users\afzaal\Desktop\C#\VP_LMS C#\VP_LMS C#\Library Managment System\LMSDataAccessLayer\obj\Debug\LMSDataAccessLayer.pdb

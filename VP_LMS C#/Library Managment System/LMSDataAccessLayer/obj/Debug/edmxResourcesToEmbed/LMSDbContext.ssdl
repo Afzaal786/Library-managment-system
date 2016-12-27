@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LMS_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AUTHOR">
+    <Key>
+      <PropertyRef Name="authorId" />
+    </Key>
+    <Property Name="authorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="authorName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="authorContact" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BOOK">
+    <Key>
+      <PropertyRef Name="bookId" />
+    </Key>
+    <Property Name="bookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="purchasePrice" Type="int" Nullable="false" />
+    <Property Name="publisherId" Type="int" />
+    <Property Name="catagoryId" Type="int" />
+    <Property Name="rackId" Type="int" />
+    <Property Name="sectionId" Type="int" />
+  </EntityType>
+  <EntityType Name="BOOK_AUTHOR">
+    <Key>
+      <PropertyRef Name="bookId" />
+      <PropertyRef Name="authorId" />
+    </Key>
+    <Property Name="bookId" Type="int" Nullable="false" />
+    <Property Name="authorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BOOK_ISSUENCE">
+    <Key>
+      <PropertyRef Name="issueId" />
+    </Key>
+    <Property Name="issueId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookId" Type="int" Nullable="false" />
+    <Property Name="memberId" Type="int" Nullable="false" />
+    <Property Name="employeeId" Type="int" Nullable="false" />
+    <Property Name="issuedOn" Type="date" Nullable="false" />
+    <Property Name="returnDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CATAGORY">
+    <Key>
+      <PropertyRef Name="catagoryId" />
+    </Key>
+    <Property Name="catagoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="catagoryName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EMPLOYEE">
+    <Key>
+      <PropertyRef Name="employeeId" />
+    </Key>
+    <Property Name="employeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="employeeName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="employeeContact" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FINE">
+    <Key>
+      <PropertyRef Name="fineId" />
+    </Key>
+    <Property Name="fineId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fineAmount" Type="int" Nullable="false" />
+    <Property Name="memberId" Type="int" Nullable="false" />
+    <Property Name="paidOn" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MEMBER">
+    <Key>
+      <PropertyRef Name="memberId" />
+    </Key>
+    <Property Name="memberId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="memberName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="memberContact" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PUBLISHER">
+    <Key>
+      <PropertyRef Name="publisherId" />
+    </Key>
+    <Property Name="publisherId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="publisherName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="publisherContact" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="RACK">
+    <Key>
+      <PropertyRef Name="rackId" />
+    </Key>
+    <Property Name="rackId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sectionId" Type="int" />
+  </EntityType>
+  <EntityType Name="SECTION">
+    <Key>
+      <PropertyRef Name="sectionId" />
+    </Key>
+    <Property Name="sectionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sectionName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="userPassword" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BOOK_AUTHOR_AUTHOR">
+    <End Role="AUTHOR" Type="Self.AUTHOR" Multiplicity="1" />
+    <End Role="BOOK_AUTHOR" Type="Self.BOOK_AUTHOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUTHOR">
+        <PropertyRef Name="authorId" />
+      </Principal>
+      <Dependent Role="BOOK_AUTHOR">
+        <PropertyRef Name="authorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_AUTHOR_BOOK">
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="1" />
+    <End Role="BOOK_AUTHOR" Type="Self.BOOK_AUTHOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOOK">
+        <PropertyRef Name="bookId" />
+      </Principal>
+      <Dependent Role="BOOK_AUTHOR">
+        <PropertyRef Name="bookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_CATAGORY">
+    <End Role="CATAGORY" Type="Self.CATAGORY" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATAGORY">
+        <PropertyRef Name="catagoryId" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="catagoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_ISSUENCE_BOOK">
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="1" />
+    <End Role="BOOK_ISSUENCE" Type="Self.BOOK_ISSUENCE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOOK">
+        <PropertyRef Name="bookId" />
+      </Principal>
+      <Dependent Role="BOOK_ISSUENCE">
+        <PropertyRef Name="bookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_ISSUENCE_EMPLOYEE">
+    <End Role="EMPLOYEE" Type="Self.EMPLOYEE" Multiplicity="1" />
+    <End Role="BOOK_ISSUENCE" Type="Self.BOOK_ISSUENCE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEE">
+        <PropertyRef Name="employeeId" />
+      </Principal>
+      <Dependent Role="BOOK_ISSUENCE">
+        <PropertyRef Name="employeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_ISSUENCE_MEMBER">
+    <End Role="MEMBER" Type="Self.MEMBER" Multiplicity="1" />
+    <End Role="BOOK_ISSUENCE" Type="Self.BOOK_ISSUENCE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEMBER">
+        <PropertyRef Name="memberId" />
+      </Principal>
+      <Dependent Role="BOOK_ISSUENCE">
+        <PropertyRef Name="memberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_PUBLISHER">
+    <End Role="PUBLISHER" Type="Self.PUBLISHER" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PUBLISHER">
+        <PropertyRef Name="publisherId" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="publisherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_RACK">
+    <End Role="RACK" Type="Self.RACK" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RACK">
+        <PropertyRef Name="rackId" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="rackId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_SECTION">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="sectionId" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="sectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FINE_MEMBER">
+    <End Role="MEMBER" Type="Self.MEMBER" Multiplicity="1" />
+    <End Role="FINE" Type="Self.FINE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEMBER">
+        <PropertyRef Name="memberId" />
+      </Principal>
+      <Dependent Role="FINE">
+        <PropertyRef Name="memberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LMS_DBModelStoreContainer">
+    <EntitySet Name="AUTHOR" EntityType="Self.AUTHOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BOOK" EntityType="Self.BOOK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BOOK_AUTHOR" EntityType="Self.BOOK_AUTHOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BOOK_ISSUENCE" EntityType="Self.BOOK_ISSUENCE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CATAGORY" EntityType="Self.CATAGORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMPLOYEE" EntityType="Self.EMPLOYEE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FINE" EntityType="Self.FINE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MEMBER" EntityType="Self.MEMBER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PUBLISHER" EntityType="Self.PUBLISHER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RACK" EntityType="Self.RACK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SECTION" EntityType="Self.SECTION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BOOK_AUTHOR_AUTHOR" Association="Self.FK_BOOK_AUTHOR_AUTHOR">
+      <End Role="AUTHOR" EntitySet="AUTHOR" />
+      <End Role="BOOK_AUTHOR" EntitySet="BOOK_AUTHOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_AUTHOR_BOOK" Association="Self.FK_BOOK_AUTHOR_BOOK">
+      <End Role="BOOK" EntitySet="BOOK" />
+      <End Role="BOOK_AUTHOR" EntitySet="BOOK_AUTHOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_CATAGORY" Association="Self.FK_BOOK_CATAGORY">
+      <End Role="CATAGORY" EntitySet="CATAGORY" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_ISSUENCE_BOOK" Association="Self.FK_BOOK_ISSUENCE_BOOK">
+      <End Role="BOOK" EntitySet="BOOK" />
+      <End Role="BOOK_ISSUENCE" EntitySet="BOOK_ISSUENCE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_ISSUENCE_EMPLOYEE" Association="Self.FK_BOOK_ISSUENCE_EMPLOYEE">
+      <End Role="EMPLOYEE" EntitySet="EMPLOYEE" />
+      <End Role="BOOK_ISSUENCE" EntitySet="BOOK_ISSUENCE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_ISSUENCE_MEMBER" Association="Self.FK_BOOK_ISSUENCE_MEMBER">
+      <End Role="MEMBER" EntitySet="MEMBER" />
+      <End Role="BOOK_ISSUENCE" EntitySet="BOOK_ISSUENCE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_PUBLISHER" Association="Self.FK_BOOK_PUBLISHER">
+      <End Role="PUBLISHER" EntitySet="PUBLISHER" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_RACK" Association="Self.FK_BOOK_RACK">
+      <End Role="RACK" EntitySet="RACK" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_SECTION" Association="Self.FK_BOOK_SECTION">
+      <End Role="SECTION" EntitySet="SECTION" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FINE_MEMBER" Association="Self.FK_FINE_MEMBER">
+      <End Role="MEMBER" EntitySet="MEMBER" />
+      <End Role="FINE" EntitySet="FINE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
